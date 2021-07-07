@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">nancheong</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">홈</string>
+    <string name="menu_login">로그인</string>
+    <string name="menu_mypage">마이페이지</string>
+    <string name="menu_dictionary">난청이란?</string>
+    <string name="menu_calendar">진료내역 및 일정</string>
+    <string name="menu_recorder">상담 관련</string>
+    <string name="menu_hospital">내 주변병원</string>
+</resources>

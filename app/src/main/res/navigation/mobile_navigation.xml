@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.test.nancheong.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="com.test.nancheong.ui.login.LoginFragment"
+        android:label="@string/menu_login"
+        tools:layout="@layout/fragment_login" />
+
+    <fragment
+        android:id="@+id/nav_mypage"
+        android:name="com.test.nancheong.ui.mypage.MyPageFragment"
+        android:label="@string/menu_mypage"
+        tools:layout="@layout/fragment_mypage" />
+
+    <fragment
+        android:id="@+id/nav_calendar"
+        android:name="com.test.nancheong.ui.calendar.CalendarFragment"
+        android:label="@string/menu_calendar"
+        tools:layout="@layout/fragment_calendar" />
+
+    <fragment
+        android:id="@+id/nav_recorder"
+        android:name="com.test.nancheong.ui.recorder.RecorderFragment"
+        android:label="@string/menu_recorder"
+        tools:layout="@layout/fragment_recorder" />
+
+    <fragment
+        android:id="@+id/nav_dictionary"
+        android:name="com.test.nancheong.ui.dictionary.DictionaryFragment"
+        android:label="@string/menu_dictionary"
+        tools:layout="@layout/fragment_dictionary" />
+
+    <fragment
+        android:id="@+id/nav_hospital"
+        android:name="com.test.nancheong.ui.hospital.HospitalFragment"
+        android:label="@string/menu_hospital"
+        tools:layout="@layout/fragment_hospital" />
+</navigation>
