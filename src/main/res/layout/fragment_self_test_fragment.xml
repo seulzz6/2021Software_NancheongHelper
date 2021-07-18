@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#BCE2D7"
+    tools:context=".ui.Fragment_selfTest_main">
+    <include layout="@layout/app_bar_main"></include>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="70dp"
+    android:layout_gravity="center_horizontal"
+    android:text="난청 자가진단"
+    android:textSize="35sp"
+    android:textColor="@color/black"
+    android:textStyle="bold"
+    android:gravity="center"
+    ></TextView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+android:layout_gravity="center"
+        android:gravity="center"
+        android:text="데시벨 검사"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+    android:textStyle="bold"
+        ></Button>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="증상 체크리스트"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        ></Button>
+
+
+    </LinearLayout>
